@@ -1,5 +1,7 @@
 # Nonton App
 
+Link Aplikasi : https://drive.google.com/file/d/17A_lftR8-P1buMEi8pvob7JX1j6-mc2m/view?usp=sharing
+
 Nonton adalah sebuah aplikasi yang bertujuan untuk memberikan informasi mengenai film seperti sinopsis, cast, review, rating, dll. 
 
 Aplikasi ini mengambil data dari themoviedb.org API.
