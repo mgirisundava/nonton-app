@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:nonton_app/pages/home_page.dart';
-import 'package:nonton_app/pages/profil_page.dart';
 import 'package:nonton_app/pages/search_page.dart';
 
 import '../theme.dart';
@@ -24,7 +23,6 @@ class _MainPageState extends State<MainPage> {
   final List<Widget> _widgetOptions = <Widget>[
     const HomePage(),
     const SearchPage(),
-    const ProfilPage(),
   ];
 
   late PageController _pageController;
@@ -59,20 +57,6 @@ class _MainPageState extends State<MainPage> {
         // drawer: AppDrawer(),
         body: SizedBox.expand(
           child: _widgetOptions.elementAt(_currentIndex),
-          // child: PageView(
-          //   controller: _pageController,
-          //   onPageChanged: (index) {
-          //     setState(() => _currentIndex = index);
-          //   },
-          //   children: const <Widget>[
-          //     HomePage(),
-          //     SearchPage(),
-          //     // Container(
-          //     //   color: Colors.green,
-          //     // ),
-          //     // const ProfilPage(),
-          //   ],
-          // ),
         ),
         bottomNavigationBar: BottomNavigationBar(
           backgroundColor: lightBlack,
@@ -85,10 +69,6 @@ class _MainPageState extends State<MainPage> {
             BottomNavigationBarItem(
                 icon: const Icon(Icons.search),
                 label: "Search",
-                backgroundColor: lightBlack),
-            BottomNavigationBarItem(
-                icon: const Icon(Icons.person),
-                label: "Profil",
                 backgroundColor: lightBlack),
           ],
           currentIndex: _currentIndex,

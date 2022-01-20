@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:nonton_app/models/movie/movie_model.dart';
+import 'package:nonton_app/pages/main_page.dart';
 import 'package:nonton_app/pages/movie_detail_page.dart';
 import 'package:nonton_app/pages/people_detail_page.dart';
-import 'package:nonton_app/pages/sign_in_page.dart';
 import 'package:nonton_app/pages/tv_detail_page.dart';
 import 'package:nonton_app/providers/movie/movie_detail_provider.dart';
 import 'package:nonton_app/providers/movie/movies_provider.dart';
@@ -55,7 +55,7 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         home: Scaffold(
           backgroundColor: backgroundColor,
-          body: const SignInPage(),
+          body: const MainPage(),
         ),
         routes: {
           MovieDetailPage.routeName: (context) => const MovieDetailPage(),
