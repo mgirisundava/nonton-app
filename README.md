@@ -1,16 +1,21 @@
-# nonton_app
+# Nonton App
 
-A new Flutter project.
+Nonton adalah sebuah aplikasi yang bertujuan untuk memberikan informasi mengenai film seperti sinopsis, cast, review, rating, dll. 
 
-## Getting Started
+Aplikasi ini mengambil data dari themoviedb.org API.
 
-This project is a starting point for a Flutter application.
+<h3>Alat</h3>
 
-A few resources to get you started if this is your first Flutter project:
+<ul>
+<li>Visual Studio Code</li>
+<li>Flutter SDK</li>
+<li>Figma</li>
+</ul>
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+<h3>State Management</h3>
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<ul><li>Provider</li></ul>
+
+<h3>Preview</h3>
+
+![Nonton App Banner](https://user-images.githubusercontent.com/79519141/150276981-49943eb6-7dcf-4f7c-ae62-d198ffd91c6b.png)
